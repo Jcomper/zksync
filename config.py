@@ -163,7 +163,7 @@ WOOFI_CONTRACTS = {
 
 ODOS_CONTRACT = {
     "router": "0x4bba932e9792a2b917d47830c93a9bc79320e4f7",
-    "use_ref": True  # If you use True, you support me 1% of the transaction amount
+    "use_ref": False  # If you use True, you support me 1% of the transaction amount
 }
 
 ZKSWAP_CONTRACTS = {
@@ -172,16 +172,16 @@ ZKSWAP_CONTRACTS = {
 
 XYSWAP_CONTRACT = {
     "router": "0x30E63157bD0bA74C814B786F6eA2ed9549507b46",
-    "use_ref": True  # If you use True, you support me 1% of the transaction amount
+    "use_ref": False  # If you use True, you support me 1% of the transaction amount
 }
 OPENOCEAN_CONTRACT = {
     "router": "0x36A1aCbbCAfca2468b85011DDD16E7Cb4d673230",
-    "use_ref": True  # If you use True, you support me 1% of the transaction amount
+    "use_ref": False  # If you use True, you support me 1% of the transaction amount
 }
 
 INCH_CONTRACT = {
     "router": "0x6e2b76966cbd9cf4cc2fa0d76d24d5241e0abc2f",
-    "use_ref": True
+    "use_ref": False
 }
 
 MAVERICK_CONTRACTS = {

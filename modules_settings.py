@@ -932,18 +932,21 @@ async def custom_routes(account_id, key, proxy):
     You can also specify () to perform the desired action a certain number of times
     example (send_mail, 1, 10) run this module 1 to 10 times
     """
-
+#[deposit_eralend, deposit_basilisk, deposit_reactorfusion, deposit_zerolend],
     use_modules = [
         swap_tokens,
         [create_omnisea, None],
         swap_multiswap,
         mint_zkstars,
-        [deposit_eralend, deposit_basilisk, deposit_reactorfusion, deposit_zerolend],
         [send_mail, None],
+        [mint_mailzero_nft, None],
+        [mint_zks_domain, None],
+        [create_safe, None],
+        [send_message, None]
     ]
 
-    sleep_from = 300
-    sleep_to = 700
+    sleep_from = 600
+    sleep_to = 1700
 
     random_module = True
 
