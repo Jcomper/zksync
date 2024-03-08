@@ -79,7 +79,8 @@ def get_module():
             Choice("51) Use custom routes", custom_routes),
             Choice("52) MultiApprove", multi_approve),
             Choice("53) Check transaction count", "tx_checker"),
-            Choice("54) Exit", "exit"),
+            Choice("54) Ruby score vote", rubyscore_vote),
+            Choice("55) Exit", "exit"),
         ],
         qmark="⚙️ ",
         pointer="✅ "

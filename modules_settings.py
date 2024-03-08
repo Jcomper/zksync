@@ -942,7 +942,8 @@ async def custom_routes(account_id, key, proxy):
         [mint_mailzero_nft, None],
         [mint_zks_domain, None],
         [create_safe, None],
-        [send_message, None]
+        [send_message, None],
+        [rubyscore_vote, None]
     ]
 
     sleep_from = 600
@@ -1057,6 +1058,9 @@ async def create_safe(account_id, key, proxy):
     gnosis_safe = GnosisSafe(account_id, key, proxy)
     await gnosis_safe.create_safe()
 
+async def rubyscore_vote(account_id, key, proxy):
+    rubyscore = RubyScore(account_id, key, proxy)
+    await rubyscore.vote()
 
 def get_tx_count():
     asyncio.run(check_tx())

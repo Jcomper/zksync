@@ -117,6 +117,9 @@ with open("data/abi/zkstars/abi.json", "r") as file:
 
 with open("data/abi/rocketsam/abi.json", "r") as file:
     ROCKETSAM_ABI = json.load(file)
+    
+with open("data/abi/rubyscore/abi.json", "r") as file:
+    RUBYSCORE_VOTE_ABI = json.load(file)
 
 ZKSYNC_BRIDGE_CONTRACT = "0x32400084c286cf3e17e7b677ea9583e60a000324"
 
@@ -236,3 +239,5 @@ ENS_CONTRACT = "0x935442af47f3dc1c11f006d551e13769f12eab13"
 OMNISEA_CONTRACT = "0x1Ecd053f681a51E37087719653f3f0FFe54750C0"
 
 SAFE_CONTRACT = "0xDAec33641865E4651fB43181C6DB6f7232Ee91c2"
+
+RUBYSCORE_VOTE_CONTRACT = "0xCb84d512F0C9943D3BC6B4Be8801aC8Aa6621a54"
